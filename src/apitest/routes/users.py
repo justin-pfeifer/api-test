@@ -1,5 +1,5 @@
 from typing import Optional, List
-from models.user import User
+from apitest.models.user import User
 from fastapi import APIRouter, status
 from datetime import date
 from fastapi.responses import JSONResponse
